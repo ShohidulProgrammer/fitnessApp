@@ -1,0 +1,136 @@
+name: flutter_app
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  fluro: "^1.4.0"
+  curved_navigation_bar: ^0.1.2 #latest version
+  flutter_svg: ^0.12.0
+  random_color: ^1.0.3
+
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  flutter_custom_clippers: ^0.1.6
+  flare_flutter: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    # login assets
+    - assets/
+    - assets/login_assets/Teddy.flr
+
+    # - bmi images
+    - assets/bmi_assets/bmi_images/gender_arrow.svg
+    - assets/bmi_assets/bmi_images/gender_female.svg
+    - assets/bmi_assets/bmi_images/gender_male.svg
+    - assets/bmi_assets/bmi_images/gender_other.svg
+    - assets/bmi_assets/bmi_images/pacman.svg
+    - assets/bmi_assets/bmi_images/person.svg
+    - assets/bmi_assets/bmi_images/user.svg
+    - assets/bmi_assets/bmi_images/weight_arrow.svg
+    # exercise images
+    - assets/exercise_assets/exercise_images/wrap_up.jpg
+    - assets/exercise_assets/exercise_images/low_lunge.png
+    - assets/exercise_assets/exercise_images/upward_bow.png
+    - assets/exercise_assets/exercise_images/warrior_pose_2.png
+    - assets/exercise_assets/exercise_images/warrior_pose.png
+    - assets/exercise_assets/exercise_images/boat_pose.png
+    - assets/exercise_assets/exercise_images/bow_pose.png
+    - assets/exercise_assets/exercise_images/cobra_pose.png
+    - assets/exercise_assets/exercise_images/crescent_lunge.png
+    - assets/exercise_assets/exercise_images/downward_facing_dog.png
+    - assets/exercise_assets/exercise_images/easy_pose.png
+    - assets/exercise_assets/exercise_images/half_pigeon.png
+    - assets/exercise_assets/exercise_images/junu.gif
+
+    # exercise category images
+    - assets/exercise_assets/exercise_images/abs.jpg
+    - assets/exercise_assets/exercise_images/body_builder.png
+    - assets/exercise_assets/exercise_images/solder.jpg
+    - assets/exercise_assets/exercise_images/chest.jpg
+    # - assets/images/jump.gif
+
+    # exercise icons
+    - assets/exercise_assets/exercise_icons/reps.png
+    - assets/exercise_assets/exercise_icons/set.png
+
+    # - assets/grocery/
+    - assets/grocery_assets/grocery_images/brocoli.png
+    - assets/grocery_assets/grocery_images/cabbage.png
+    - assets/grocery_assets/grocery_images/capsicum.png
+    - assets/grocery_assets/grocery_images/cart_icon.png
+    - assets/grocery_assets/grocery_images/delivery.png
+    - assets/grocery_assets/grocery_images/fruit.png
+    - assets/grocery_assets/grocery_images/home_icon.png
+    - assets/grocery_assets/grocery_images/mango.png
+    - assets/grocery_assets/grocery_images/mango_slice.png
+    - assets/grocery_assets/grocery_images/mortar.png
+    - assets/grocery_assets/grocery_images/pineapple.png
+    - assets/grocery_assets/grocery_images/vegetables.png
+  #  - icons/diet_control_icon.svg
+  #  - icons/diet_control_icon.png
+  #  - images/a_dot_ham.jpeg
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    # exercise fonts
+    - family: Poppins
+      fonts:
+        - asset: assets/exercise_assets/exercise_fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/exercise_assets/exercise_fonts/Poppins-Regular.ttf
+          weight: 400
+          # login fornts
+
+          # login fonts
+    - family: RobotoMedium
+      fonts:
+        - asset: assets/login_assets/fonts/Roboto-Medium.ttf
+    # - family: Schyler
+    #   fonts:
+    #     - asset: fonts/Schyler-Regular.ttf
+    #     - asset: fonts/Schyler-Italic.ttf
+    #       style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
